@@ -1,3 +1,7 @@
+body {
+  background-color: aquamarine;
+}
+
 .chessOuter {
   position: absolute;
   left: 50%;
@@ -11,20 +15,24 @@
   flex-wrap: wrap;
   width: 640px;
   height: 640px;
+  background-image: url("./chess.png");
+  background-size: contain;
+  background-color: white;
 }
 
 .square {
   width: 80px;
   height: 80px;
   flex: 1 0 12.5%; /* explanation below */
-  outline: 1px solid black;
   cursor: pointer;
 }
 
 .next {
-  background-color: green;
+  background-image: url("./knight.png");
+  background-color: hotpink !important;
 }
 
 .selected {
-  background-color: red;
+  background-image: url("./knight.png");
+  background-color: red !important;
 }

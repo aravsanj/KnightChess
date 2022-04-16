@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 interface Props {
   chessArray: Array<Array<number>>;
