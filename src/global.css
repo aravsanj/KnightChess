@@ -1,0 +1,30 @@
+.chessOuter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  height: 640px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  flex: 1 0 12.5%; /* explanation below */
+  outline: 1px solid black;
+  cursor: pointer;
+}
+
+.next {
+  background-color: green;
+}
+
+.selected {
+  background-color: red;
+}
